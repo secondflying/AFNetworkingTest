@@ -53,7 +53,7 @@
     CFRelease(puuid);
     CFRelease(uuidString);
     
-    //TODO 保存到NSUserDefaults，下次从NSUserDefaults里去，要不每次都不一样
+    //TODO 保存udid到NSUserDefaults，下次从NSUserDefaults里去，要不每次都不一样
     
     NSDictionary *params = [NSDictionary dictionaryWithObjectsAndKeys:
                             result, @"udid",
